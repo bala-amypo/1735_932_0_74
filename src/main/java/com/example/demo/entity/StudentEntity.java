@@ -3,6 +3,8 @@ import jakarta.persistence.Entity;
 
 @Entity
 public class StudentEntity{
+    @Id
+    @GenratedValue(strategy=GeneratedType.IDENTITY)
     private Long id;
     private String name;
     private String email;
