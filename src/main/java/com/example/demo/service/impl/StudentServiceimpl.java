@@ -18,6 +18,10 @@ public class StudentServiceimpl implements StudentService{
     public  List<Student> getAllStudents(){
         return findAll();
     }
-    
+
+    @override
+    public void deleteStudent(Long id){
+        
+    }
 
 }
